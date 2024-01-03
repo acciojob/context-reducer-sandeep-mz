@@ -2,6 +2,8 @@ import React from 'react';
 import { UserProvider } from './UserContext';
 import ShoppingApp from './ShoppingApp';
 
+
+
 function App() {
   return (
     <UserProvider>

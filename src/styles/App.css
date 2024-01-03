@@ -1,12 +1,52 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+/* App.css */
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+/* Basic styles for buttons */
+button {
+    padding: 8px 12px;
+    margin: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Input box styles */
+  input[type="text"] {
+    padding: 8px;
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* List styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Additional styling for buttons with specific IDs */
+  #login-btn,
+  #signout,
+  #add-button,
+  #remove-button,
+  #clear-list {
+    background-color: #28a745;
+  }
+  
+  #login-btn:hover,
+  #signout:hover,
+  #add-button:hover,
+  #remove-button:hover,
+  #clear-list:hover {
+    background-color: #218838;
+  }
+  
